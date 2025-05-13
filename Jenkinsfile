@@ -1,6 +1,6 @@
 node {
     stage('Checkout') {
-        git 'https://github.com/Kanchanpal9/task.git'
+        git branch: 'main', url:'https://github.com/Kanchanpal9/task.git'
     }
 
     stage('Build') {
